@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Chapter1 {
     public static void main(String[] args) {
         /*1. Printing a quote from Abraham Lincoln*/
@@ -21,6 +23,17 @@ public class Chapter1 {
         System.out.println("Sum of the two floating point numbers: " + sumNum);
         System.out.println("Difference between the two floating point numbers: " + minNum);
         System.out.println("Product of the two floating point numbers: " + proNum);
+        System.out.println("-------------------------------------------------------------------\n");
+
+        /*4. Convert from Fahrenheit to Celsius. Read the Fahrenheit temperature from the user*/
+        short fahrenheit;
+        short celsius;
+
+        Scanner scan = new Scanner(System.in);
+        System.out.print("4. Enter temperature in fahrenheit: ");
+        fahrenheit = scan.nextShort();
+        celsius = (short) ((fahrenheit - 32) * 5/9);
+        System.out.println(fahrenheit +"F is " + celsius + "C.");
         System.out.println("-------------------------------------------------------------------\n");
 
     }
