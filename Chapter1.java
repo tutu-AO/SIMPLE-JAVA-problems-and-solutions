@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Chapter1 {
     public static void main(String[] args) {
+
         /*1. Printing a quote from Abraham Lincoln*/
         System.out.print("\n1. A quote by Abraham Lincoln: ");
         System.out.println("\"Whatever you are, be a good one.\"");
