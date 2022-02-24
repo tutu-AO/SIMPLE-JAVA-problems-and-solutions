@@ -147,13 +147,14 @@ public class Chapter1 {
         /*11. Read the numerator and denominator of a fraction as integers and then print the decimal equivalent of the fraction*/
         int numerator;
         int denominator;
-        System.out.print("Enter numerator: ");
+        System.out.print("11. Enter numerator: ");
         numerator = scan.nextInt();
         System.out.print("Enter denominator: ");
         denominator = scan.nextInt();
 
         float equivDecimal = (float) numerator / (float) denominator;
-        System.out.println(equivDecimal);
+        System.out.println("The decimal equivalent of the fraction: " + equivDecimal);
+        System.out.println("------------------------------------------------------------------------------------------------------------\n");
 
 
 
